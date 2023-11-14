@@ -16,5 +16,8 @@ y = int(input("what's y? "))
 x = float(input("what's x? "))
 y = float(input("what's y? "))
 #what if we want to print in certine system by using comma , or ' or .
-z= roud(x+y)
-print(f"{z:,}")
+#z= roud(x+y) lets use division
+z = round(x/y, 2) #round to 2 dicimal places 
+#print(f"{z:,}")
+# or can be used like this to round number print(f"{z:.2f}") this will round to the 2 dicemal places
+print(z)
