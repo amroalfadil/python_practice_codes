@@ -10,5 +10,11 @@ print(z)
 #we can modify the code to be better , by nesting functions int(input())
 x = int(input("what's x? "))
 y = int(input("what's y? "))
-
-print(x+y)
+# we can use float() too instead of integers to accept from the user
+# you can round numbers to the nearest integer round()
+#look at the documention round(number[, ndigits])  [] brackets means options which is the number of digits you would like to round too 10th place or 100th place
+x = float(input("what's x? "))
+y = float(input("what's y? "))
+#what if we want to print in certine system by using comma , or ' or .
+z= roud(x+y)
+print(f"{z:,}")
