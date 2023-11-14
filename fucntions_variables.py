@@ -27,6 +27,31 @@ this is a comment too
 name = input("What is your name? ") # note we have space here after the question mark
 #print("hello," + name) # but there is missing space you can "Hello, "
 #print("hello, ", name) #when passing multiple arguments if apply space automatically
-print("hello, ")
+'''
+print("hello, ", end="")
 print(name)
+'''
+#print("hello, \""friend\"") escaping to pring qouts
+#remove whitespace from str
+name =name.strip()
+
+#capitalise user's name (it does it for the only first letter)
+name = name.capitalize()
+#you can title every thing like this
+name = name.title()
+#you can chain functions togather to tide up the code
+name = name.strip().title()
+#or you can even combine it more
+name = input("What is your name? ").strip().title()
+print(f"hello, {name}") #formate string  or f-string
+#we can clean the string in different ways (extra spaces , capetalisations...etc)
+#you can extract a word from a string 
+#split user's name into first name and last name 
+first, last = name.splilte(" ")
+print(f"hello, {first}")
+#int = no decimal point 1,2,3,4,-1,-2,-3
+# % mean modulo operator = take the remainder after dividing a number by another
+#you can run python interactive mode by typing python in terminal and will see >>>
+
+
 
