@@ -5,4 +5,4 @@ def printer(counter):
         for count in refersed(range(counter)):
             print("*"count)
 
-        printer(5)
+printer(5)
