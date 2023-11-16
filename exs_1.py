@@ -1,8 +1,8 @@
 def printer(counter):
     for count in range(counter):
-        print("*"*counter)
-
-        for count in refersed(range(counter)):
-            print("*"count)
-
+        #trying to fix the top 4 lines 
+        count = counter - 1
+        print("*"*count)
+#    for count in reversed(range(counter)):
+#        print("*"*count)
 printer(5)
