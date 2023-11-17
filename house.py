@@ -46,6 +46,6 @@ match name:
         print("Griffindor")
     case "Draco":
         print("Slytherin")
-    # finally to handle other cases  use _:
+    # finally to handle other cases  use _: catch all.
     case _:
         print("Who?")
