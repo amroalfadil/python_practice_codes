@@ -26,12 +26,23 @@ else:
     print("Who?")
 '''
 
+'''
 match name:
     case "Harry": 
         print("Griffindor")
     case "Hermione":
         print("Griffindor")
     case "Ron":
+        print("Griffindor")
+    case "Draco":
+        print("Slytherin")
+    # finally to handle other cases  use _:
+    case _:
+        print("Who?")
+'''
+# Or equeveleant to |
+match name:
+    case "Harry" | "Hermione" |  "Ron":
         print("Griffindor")
     case "Draco":
         print("Slytherin")
