@@ -6,12 +6,21 @@ def main():
     else:
         print("Odd")
 #build the invented function earlier
-def is_even(n):
+'''
+    is_even(n):
     if n % 2 ==0:
         return True
     else:
         return False
-
+'''
+# you can combine above as follows (pythonic way)
+'''
+    is_even(n):
+    return True if n % 2 == 0 else False
+'''
+# even more improvement
+def is_even(n):
+    return (n % 2 == 0)
 
 
 
