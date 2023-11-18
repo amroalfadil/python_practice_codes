@@ -22,4 +22,5 @@ while i < 3: # starting from 0 up to 3 not including 3
     print("meow")
     # if you stoped here will go "meow" for ever, 
     #thats why whe  have decrease iteratively the i as follows
-    i = i + 1
+    # i = i + 1 you can fix this
+    i += 1
